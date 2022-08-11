@@ -144,7 +144,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 691px;
+  min-height: 700px;
 }
 
 .u-section-3 .u-slider-1 {
@@ -171,7 +171,7 @@
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("images/RobinStaredown.png");
+  background-image: url("images/Rocknroll.png");
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -215,11 +215,12 @@
 }
 
 .u-section-3 .u-group-1 {
-  width: 581px;
-  min-height: 377px;
+  width: 520px;
+  min-height: 513px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
-  margin: -504px 0 60px auto;
+  height: auto;
+  margin: -542px 0 60px auto;
 }
 
 .u-section-3 .u-container-layout-5 {
@@ -256,6 +257,7 @@
     width: 470px;
     margin-top: -511px;
     margin-bottom: 120px;
+    height: auto;
   }
 
   .u-section-3 .u-container-layout-5 {
@@ -369,17 +371,14 @@
 
 .u-section-4 .u-text-2 {
   font-size: 4.5rem;
+  font-weight: normal;
+  font-family: Oswald, sans-serif;
   margin: 22px 0 0;
 }
 
 .u-section-4 .u-text-3 {
   letter-spacing: 1px;
   margin: 21px 28px 0 0;
-}
-
-.u-section-4 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -407,8 +406,6 @@
 
   .u-section-4 .u-text-2 {
     font-size: 3.75rem;
-    font-weight: normal;
-    font-family: Oswald, sans-serif;
   }
 }
 
