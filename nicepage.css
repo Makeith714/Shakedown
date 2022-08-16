@@ -36648,26 +36648,26 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 91px;
   }
 
-  .u-header .u-social-icons-1 {
-    width: 143px;
-    min-width: 80px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -36px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-header .u-image-1 {
-    margin-left: auto;
-  }
-
   .u-header .u-menu-1 {
     margin-top: -37px;
   }
 }
 
+
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 127px;
+  }
+
+  .u-header .u-image-1 {
+    margin-left: auto;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin: -51px 0 38px auto;
+  }
+}
  .u-footer {
   background-image: none;
 }
