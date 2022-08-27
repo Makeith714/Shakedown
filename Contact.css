@@ -1,66 +1,110 @@
  .u-section-1 {
   background-image: url("images/nightmoon.jpeg");
-  background-position: 74.9% 50%;
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 572px;
+  min-height: 384px;
 }
 
 .u-section-1 .u-text-1 {
-  font-weight: normal;
-  margin: 61px auto 0;
-}
-
-.u-section-1 .u-form-1 {
-  width: 570px;
-  margin: 28px auto 0;
-}
-
-.u-section-1 .u-btn-1 {
-  background-image: none;
-  border-style: none;
+  font-family: Oswald, sans-serif;
+  margin: 84px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1rem;
-  text-align: center;
-  width: 183px;
-  margin: 28px auto 60px;
+  margin: 37px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: 42px auto 60px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 472px;
-  }
-
   .u-section-1 .u-text-1 {
-    font-weight: 700;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 362px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 272px;
+    width: auto;
   }
 
-  .u-section-1 .u-form-1 {
-    width: 540px;
+  .u-section-1 .u-text-2 {
+    width: auto;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 171px;
+  .u-section-1 .u-text-1 {
+    margin-top: 70px;
+    margin-right: 63px;
   }
 
-  .u-section-1 .u-form-1 {
-    width: 340px;
+  .u-section-1 .u-text-2 {
+    margin-top: 488px;
+    margin-left: 479px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -491px;
+  }
+} .u-section-2 {
+  background-image: url("images/nightmoon.jpeg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 418px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: Oswald, sans-serif;
+  margin: 84px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-size: 1rem;
+  margin: 37px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: 42px auto 60px;
+}
+
+.u-section-2 .u-text-3 {
+  font-size: 1rem;
+  width: auto;
+  text-align: center;
+  margin: -136px 0 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-1 {
+    width: auto;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    margin-top: 70px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 488px;
+    margin-left: 479px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: -562px;
+    margin-bottom: 0;
   }
 }
