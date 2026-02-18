@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Choir — Robin Shakedown</title>
+  <!-- Link to your existing CSS or keep this page self-contained -->
+  <link rel="stylesheet" href="contact.css">
+  <style>
+    /* Core styles for landing page */
+    body {
+      background-color: #111; /* dark retro vibe */
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff4c4c; /* band accent color */
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .signup-button {
+      display: inline-block;
+      background-color: #ff4c4c;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .signup-button:hover {
+      background-color: #e04343;
+      transform: scale(1.05);
+    }
+
+    /* Optional: grainy camcorder background effect */
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('camcorder-grain.png') repeat; /* optional grain texture */
+      opacity: 0.1;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .signup-container {
+      position: relative;
+      z-index: 1; /* make content above grain */
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+    <h1>Be Part of the Live Recording</h1>
+    <p>Sign up to get the **exclusive live version of “Learn To Sing”** and early access to tickets for Robin Shakedown’s next show! Be part of the energy, the chaos, and the choir.</p>
+    
+    <!-- CTA Button linking to hosted Mailchimp form -->
